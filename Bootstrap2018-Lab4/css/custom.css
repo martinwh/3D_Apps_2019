@@ -646,7 +646,11 @@ X3D, x3d {
 /* Extra large devices (large desktops, 1200px and up)
 */
 @media (min-width: 1200px) { 
-    
+    #main_3d_image {
+        background-image: url(../assets/images/main_3D_1400.jpg);
+        background-repeat: no-repeat;
+        height: 524px;
+    }
     
 }
 

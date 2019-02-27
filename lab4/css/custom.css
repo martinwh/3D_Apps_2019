@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(../assets/images/main_3D.jpg);
     background-repeat: no-repeat;
     height: 201px;
+    margin-bottom: 10px;
 }
 
 #main_text {
@@ -69,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 .card {
-    border: 0px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0,0,0,.125);
     /* border-radius: .25rem;*/
     margin-top: 10px;
     margin-bottom: 10px;
@@ -246,6 +247,93 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     padding-top: 0px;
 }
 
+.img-thumbnail {
+    padding: 0.25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color:  #760003; /* Font color for active font */
+    background-color: #3399ff; /* Blue color for background */
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+    color: white;  
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.nav-tabs .nav-link:hover {
+    color: green;
+    border: 1px solid transparent;
+}
+
+.camera-btns {
+    /* background-color: rgba(0, 0, 255, 0.3);  */
+    border-color: black; 
+    border-style: solid;
+    border-width: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.camera-btns > p  {
+    font-size: 15px;
+    color: red;
+    padding: 5px 0px;
+    font-weight: 900; 
+}
+
+.camera-font {
+    font-weight: 400;   
+    color: white;
+}
+
+.camera-font:hover {
+    font-weight: 700;   
+    color: rgb(3, 3, 3);
+}
+
+.btn-responsive {
+    padding: 10px 10px;
+    font-size: 90%;
+    line-height: 1.2;
+    white-space: normal !important;
+}
+
+.gallery-header {
+    color: white;
+}
+
+.gallery-header:hover {
+    color: green;
+    border: 1px solid transparent;
+}
+
+.model3D  {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the transparency to bring the color forward */
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    height: 200px;
+}
+
+X3D, x3d {
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 1.0);
+    width: 100%;
+    height: 100%
+    
+}
+
 @media (min-width: 576px) {
 
     body {
@@ -264,7 +352,7 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     }
 
     .card {
-        border: 0px solid rgba(0,0,0,.125);
+        border: 1px solid rgba(0,0,0,.125);
         /* border-radius: .25rem;*/
         margin-top: 10px;
         margin-bottom: 10px;
@@ -299,6 +387,10 @@ There is plenty more styling to do than indicated here, in mobile it still defau
         padding-top: 7px;
     }
 
+    .model3D  {
+        height: 310px;
+    }
+
 }
 
 
@@ -317,7 +409,7 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     }
 
     .card {
-        border: 0px solid rgba(0,0,0,.125);
+        border: 1px solid rgba(0,0,0,.125);
         /* border-radius: .25rem;*/
         margin-top: 10px;
         margin-bottom: 10px;
@@ -418,6 +510,10 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     .social {
         padding-top: 7px;
     }
+
+    .model3D  {
+        height: 380px;
+    }
 }
 
 /* Large devices (desktops, 992px and up)
@@ -454,7 +550,7 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     }
 
     .card {
-        border: 0px solid rgba(0,0,0,.125);
+        border: 1px solid rgba(0,0,0,.125);
         /* border-radius: .25rem;*/
         margin-top: 10px;
         margin-bottom: 10px;
@@ -532,11 +628,23 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     .social {
         padding-top: 7px;
     }
+
+    .model3D  {
+        height: 450px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)
 */
 @media (min-width: 1200px) {   
+    #main_3d_image {
+        background-image: url(../assets/images/main_3D_1400.jpg);
+        background-repeat: no-repeat;
+        height: 524px;
+    }
 
+    .model3D  {
+        height: 550px;
+    }
 }
 
