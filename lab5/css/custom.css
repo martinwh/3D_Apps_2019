@@ -319,16 +319,16 @@ There is plenty more styling to do than indicated here, in mobile it still defau
 }
 
 .model3D  {
-    background-color: rgba(255, 255, 255, 0.2); /* Adjust the transparency to bring the color forward */
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 1.0);
+    border: 0px solid rgba(0, 0, 0, 1.0);
     padding: 2px;
     height: 200px;
 }
 
 X3D, x3d {
     border-radius: 5px;
-    border: 1px solid rgba(255, 0, 0, 1.0);
+    border: 0px solid rgba(255, 0, 0, 1.0);
     width: 100%;
     height: 100%
     
