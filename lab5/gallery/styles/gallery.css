@@ -1,0 +1,18 @@
+#gallery {
+	width:50px;
+}
+
+#gallery_cell {
+	padding:0px;
+	background: ivory;
+	border: 1px solid red;
+	min-width: 100px;
+	height: 80px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#image_thumbnail {
+	max-width: 100px;
+	max-height: 80px;
+}

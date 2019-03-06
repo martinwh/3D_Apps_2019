@@ -1,0 +1,19 @@
+#gallery {
+	width: 15%;
+	border: 1px solid red;
+	border-radius: 10px;
+}
+
+#gallery_cell {
+	background: ivory;
+	border: 1px solid red;
+	width: 20%;
+	height: 20%;
+	border-radius: 10px;
+	margin: 3px;
+	float:left;
+}
+
+#image_thumbnail {
+	width: 100%;
+}

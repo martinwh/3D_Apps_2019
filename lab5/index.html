@@ -188,27 +188,19 @@
                     </div>
                 </div>
 
-                <!-- 3D image gallery -->
-                <div class="col-sm-4">
-                    <div class="card text-left">
-                        <div class="card-header gallery-header">
-                                Gallery
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">3D Image Gallery</h4>
-                            <a href="coke.html">
-                                <img class="card-img-top img-fluid img-thumbnail" src="assets/images/coca_cola.jpg" alt="Coca Cola">
-                            </a>
-                            <a href="sprite.html">
-                                <img class="card-img-top img-fluid img-thumbnail" src="assets/images/sprite.jpg" alt="Coca Cola">
-                            </a>
-                            <a href="pepper.html">
-                                <img class="card-img-top img-fluid img-thumbnail" src="assets/images/dr_pepper.jpg" alt="Coca Cola">
-                            </a>
-                            <p class="card-text">These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray</p>
-                        </div>
+              <!-- 3D image gallery -->
+              <div class="col-sm-4">
+                <div class="card text-left">
+                    <div class="card-header gallery-header">
+                      Gallery
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">3D Images</h4>
+                          <div class="gallery" id="gallery1"></div>
+                        <p class="card-text">These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray</p>
                     </div>
                 </div>
+              </div>
             </div>
 
             <!-- Row to hold one card to hold the coka cola descriptive text, etc.-->
@@ -288,24 +280,16 @@
 
             <!-- 3D image gallery -->
             <div class="col-sm-4">
-                <div class="card text-left">
-                    <div class="card-header gallery-header">
-                            Gallery
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">3D Image Gallery</h4>
-                        <a href="coke.html">
-                            <img class="card-img-top img-fluid img-thumbnail" src="assets/images/coca_cola.jpg" alt="Coca Cola">
-                        </a>
-                        <a href="sprite.html">
-                            <img class="card-img-top img-fluid img-thumbnail" src="assets/images/sprite.jpg" alt="Coca Cola">
-                        </a>
-                        <a href="pepper.html">
-                            <img class="card-img-top img-fluid img-thumbnail" src="assets/images/dr_pepper.jpg" alt="Coca Cola">
-                        </a>
-                        <p class="card-text">These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray</p>
-                    </div>
+            <div class="card text-left">
+                <div class="card-header gallery-header">
+                    Gallery
                 </div>
+                <div class="card-body">
+                    <h4 class="card-title">3D Images</h4>
+                        <div class="gallery" id="gallery2"></div>
+                    <p class="card-text">These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray</p>
+                </div>
+            </div>
             </div>
         </div>
         
@@ -387,19 +371,11 @@
                 <div class="col-sm-4">
                         <div class="card text-left">
                             <div class="card-header gallery-header">
-                                    Gallery
+                              Gallery
                             </div>
                             <div class="card-body">
-                                <h4 class="card-title">3D Image Gallery</h4>
-                                <a href="coke.html">
-                                    <img class="card-img-top img-fluid img-thumbnail" src="assets/images/coca_cola.jpg" alt="Coca Cola">
-                                </a>
-                                <a href="sprite.html">
-                                    <img class="card-img-top img-fluid img-thumbnail" src="assets/images/sprite.jpg" alt="Coca Cola">
-                                </a>
-                                <a href="pepper.html">
-                                    <img class="card-img-top img-fluid img-thumbnail" src="assets/images/dr_pepper.jpg" alt="Coca Cola">
-                                </a>
+                                <h4 class="card-title">3D Images</h4>
+                                  <div class="gallery" id="gallery3"></div>
                                 <p class="card-text">These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray</p>
                             </div>
                         </div>
@@ -481,6 +457,9 @@
 
     <!-- Include the x3dom JavaScript -->
     <script type='text/javascript' src='js/x3dom.js'></script>
+
+    <!-- JavaScript and PHP based Gallery generator  -->
+    <script type="text/javascript" src="js/gallery_generator.js"></script>
 
   </body>
 </html>
